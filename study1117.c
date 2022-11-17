@@ -2,15 +2,15 @@
 #include<stdio.h>
 #include<string.h>
 
-//¶ş·Ö²éÕÒ·½·¨
+//äºŒåˆ†æŸ¥æ‰¾æ–¹æ³•
 //int main()
 //{
 //	int arr[] = { 1,2,3,4,5,6,8,9,10,11 };
 //	int k = 7;
 //
-//	int sz = sizeof(arr) / sizeof(arr[0]);//¼ÆËãÔªËØ¸öÊı
-//	int left = 0;//×óÏÂ±ê
-//	int right = sz - 1;//ÓÒÏÂ±ê
+//	int sz = sizeof(arr) / sizeof(arr[0]);//è®¡ç®—å…ƒç´ ä¸ªæ•°
+//	int left = 0;//å·¦ä¸‹æ ‡
+//	int right = sz - 1;//å³ä¸‹æ ‡
 //
 //	while (left<=right)
 //	{
@@ -25,18 +25,18 @@
 //		}
 //		else
 //		{
-//			printf("ÕÒµ½ÁË£¬ÏÂ±êÊÇ%d\n", mid);
+//			printf("æ‰¾åˆ°äº†ï¼Œä¸‹æ ‡æ˜¯%d\n", mid);
 //			break;
 //		}
 //	}
 //	if (left > right)
 //	{
-//		printf("ÕÒ²»µ½\n");
+//		printf("æ‰¾ä¸åˆ°\n");
 //	}
 //	return 0;
 //}
 
-
+//ä¸ªå­—ç¬¦é€æ¸å‘ä¸­é—´ç¼©è¿›æ˜¾ç¤º
 int main()
 {
 	int i = 0;
