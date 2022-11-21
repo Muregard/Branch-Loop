@@ -162,3 +162,46 @@ int main()
 	} while (input);
 	return 0;
 }
+
+//goto语句
+#include<string.h>
+#include<stdlib.h>
+//int main()
+//{
+//	char input[20] = { 0 };
+//	//shutdown -s -t 60
+//	//system()- 执行系统命令的
+//	system("shutdown -s -t 60");
+//again:
+//	printf("请注意，你的电脑将在1分钟后自动关机，输入：我是莫雷高德，以取消关机\n请输入 > :");
+//	scanf("%s", input);
+//	if (strcmp(input, "我是莫雷高德") == 0)
+//	{
+//		system("shutdown -a");
+//	}
+//	else
+//	{
+//		goto again;
+//	}
+//	return 0;
+//}
+
+//用循环方法达到与goto语句同样效果
+int main()
+{
+	char input[20] = { 0 };
+	//shutdown -s -t 60
+	//system()- 执行系统命令的
+	system("shutdown -s -t 60");
+	while (1)
+	{
+		printf("请注意，你的电脑将在1分钟后自动关机，输入：我是莫雷高德，以取消关机\n请输入 > :");
+		scanf("%s", input);
+		if (strcmp(input, "我是莫雷高德") == 0)
+		{
+			system("shutdown -a");
+			break;
+		}
+	}
+	return 0;
+}
