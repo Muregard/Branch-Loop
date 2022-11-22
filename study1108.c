@@ -2,20 +2,21 @@
 #include<stdio.h>
 #include<string.h>
 
-
+//å¥‡å¶æ•°åˆ¤æ–­
 //int main()
 //{
 //	int a;
-//	printf("ÇëÊäÈëÕûÊı\n");
+//	printf("è¯·è¾“å…¥æ•´æ•°\n");
 //	scanf("%d",&a);
 //	if (a % 2 == 0)
-//		printf("Å¼Êı\n");
+//		printf("å¶æ•°\n");
 //	else
-//		printf("ÆæÊı\n");
+//		printf("å¥‡æ•°\n");
 //	return 0;
 //
 //}
 
+//ç”¨whileå¾ªç¯è¾“å‡º1-100ä¸­çš„æ‰€æœ‰å¥‡æ•°
 //int main()
 //{
 //	int i = 0;
@@ -28,6 +29,7 @@
 //	return 0;
 //}
 
+//ç”¨Switch caseè¯­å¥åˆ¤æ–­æ˜ŸæœŸå‡ 
 //int main()
 //{
 //	int day = 0;
@@ -35,30 +37,31 @@
 //	switch (day)
 //	{
 //	case 1:
-//		printf("½ñÌìÊÇĞÇÆÚÒ»\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸä¸€\n");
 //		break;
 //	case 2:
-//		printf("½ñÌìÊÇĞÇÆÚ¶ş\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸäºŒ\n");
 //		break;
 //	case 3:
-//		printf("½ñÌìÊÇĞÇÆÚÈı\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸä¸‰\n");
 //		break;
 //	case 4:
-//		printf("½ñÌìÊÇĞÇÆÚËÄ\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸå››\n");
 //		break;
 //	case 5:
-//		printf("½ñÌìÊÇĞÇÆÚÎå\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸäº”\n");
 //		break;
 //	case 6:
-//		printf("½ñÌìÊÇĞÇÆÚÁù\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸå…­\n");
 //		break;
 //	case 7:
-//		printf("½ñÌìÊÇĞÇÆÚÌì\n");
+//		printf("ä»Šå¤©æ˜¯æ˜ŸæœŸå¤©\n");
 //		break;
 //	}
 //	return 0;
 //}
 
+//ç”¨Switch caseè¯­å¥åˆ¤æ–­å·¥ä½œæ—¥å’Œä¼‘æ¯æ—¥
 //int main()
 //{
 //	int day = 0;
@@ -70,19 +73,20 @@
 //	case 3:
 //	case 4:
 //	case 5:
-//		printf("¹¤×÷ÈÕ\n");
+//		printf("å·¥ä½œæ—¥\n");
 //		break;
 //	case 6:
 //	case 7:
-//		printf("¹¤×÷ÈÕ\n");
+//		printf("å·¥ä½œæ—¥\n");
 //		break;
 //	default:
-//		printf("ÊäÈë´íÎó\n");
+//		printf("è¾“å…¥é”™è¯¯\n");
 //		break;
 //	}
 //	return 0;
 //}
 
+//è¾“å‡º1-10
 //int main()
 //{
 //	int i = 1;
@@ -94,6 +98,7 @@
 //	return 0;
 //}
 
+//è¾“å‡º1-4ï¼Œç„¶åæ­»å¾ªç¯ï¼›continueè·³å‡ºæœ¬æ¬¡å¾ªç¯ï¼Œåˆ°åˆ¤æ–­é˜¶æ®µ
 //int main()
 //{
 //	int i = 1;
@@ -106,27 +111,29 @@
 //	}
 //	return 0;
 
+//while(ch=getchar()!='\n')æŒç»­è¯»å–ç¼“å†²åŒºå­—ç¬¦ï¼Œç›´åˆ°å‡ºç°'\n'
 //int main()
 //{
 //	char password[20] = { 0 };
 //	int ret = 0;
 //	int ch = 0;
-//	printf("ÇëÊäÈëÃÜÂë\n");
+//	printf("è¯·è¾“å…¥å¯†ç \n");
 //	scanf("%s", password);
-//	while (ch = getchar() != '\n')//³ÖĞø¶ÁÈ¡»º³åÇø×Ö·û£¬Ö±µ½³öÏÖ'\n'
+//	while (ch = getchar() != '\n')//æŒç»­è¯»å–ç¼“å†²åŒºå­—ç¬¦ï¼Œç›´åˆ°å‡ºç°'\n'
 //	{
 //		;
 //	}
-//	printf("ÇëÈ·ÈÏ(Y/N)\n");
+//	printf("è¯·ç¡®è®¤(Y/N)\n");
 //	ret = getchar();
 //	if (ret == 'Y')
-//		printf("È·ÈÏ³É¹¦\n");
+//		printf("ç¡®è®¤æˆåŠŸ\n");
 //	else
-//		printf("·ÅÆúÈ·ÈÏ\n");
+//		printf("æ”¾å¼ƒç¡®è®¤\n");
 //
 //	return 0;
 //}
 
+//ç”¨forå¾ªç¯è¾“å‡º1-10çš„æ•°
 //int main()
 //{
 //	int i;
@@ -136,6 +143,7 @@
 //
 //}
 
+//ç”¨do whileå¾ªç¯è¾“å‡º1-10çš„æ•°
 //int main()
 //{
 //	int i = 0;
@@ -148,6 +156,7 @@
 //	return 0;
 //}
 
+//è®¡ç®—nçš„é˜¶ä¹˜
 //int main()
 //{
 //	int i = 0;
@@ -162,6 +171,7 @@
 //	return 0;
 //}
 
+//è®¡ç®—1ï¼+2ï¼+3ï¼+...+10ï¼
 //int main()
 //{
 //	int i = 0;
@@ -180,44 +190,46 @@
 //	return 0;
 //}
 
+//è¾“å…¥å¯†ç ç™»å½•ï¼Œå¯ä»¥è¾“å…¥ä¸‰æ¬¡
 int main()
 {
 	int i = 0;
 	char password[20] = {0};
-	printf("ÇëÊäÈëÃÜÂë\n");
+	printf("è¯·è¾“å…¥å¯†ç \n");
 	for (i = 0;i < 3;i++)
 	{
 		scanf("%s", password);
 		if(strcmp(password,"aahph")==0)
 		{
-			printf("³É¹¦µÇÂ¼\n");
+			printf("æˆåŠŸç™»å½•\n");
 			break;
 		}
 		else
 		{
-			printf("ÃÜÂë´íÎó\n");
+			printf("å¯†ç é”™è¯¯\n");
 		}
 	}
 	if (i == 3)
-		printf("Èı´ÎÃÜÂë¾ù´íÎó£¬ÍË³ö³ÌĞò\n");
+		printf("ä¸‰æ¬¡å¯†ç å‡é”™è¯¯ï¼Œé€€å‡ºç¨‹åº\n");
 	return 0;
 }
 
-//int main()
-//{
-//	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
-//	int k = 7;
-//	int i = 0;
-//	int sz = sizeof(arr) / sizeof(arr[0]);
-//	for (i = 0;i < sz;i++)
-//	{
-//		if (k == arr[i])
-//		{
-//			printf("ÕÒµ½ÁË,ÏÂ±êÊÇ£º%d\n", i);
-//			break;
-//		}
-//	}
-//	if (i == sz)
-//		printf("ÕÒ²»µ½\n");
-//	return 0;
-//}
+//åœ¨ä¸€ä¸ªæœ‰åºæ•°ç»„ä¸­æŸ¥è¯¢æŸä¸ªå…ƒç´ çš„ä¸‹æ ‡
+int main()
+{
+	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
+	int k = 7;
+	int i = 0;
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	for (i = 0;i < sz;i++)
+	{
+		if (k == arr[i])
+		{
+			printf("æ‰¾åˆ°äº†,ä¸‹æ ‡æ˜¯ï¼š%d\n", i);
+			break;
+		}
+	}
+	if (i == sz)
+		printf("æ‰¾ä¸åˆ°\n");
+	return 0;
+}
